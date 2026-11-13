@@ -181,7 +181,7 @@
         console.log('Referrer:', document.referrer);
         console.log('==================');
 
-        const isAllowed = udwire === "official";
+        const isAllowed = source === "official";
         
         if (isAllowed) {
             const cleanUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
